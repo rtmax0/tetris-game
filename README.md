@@ -22,12 +22,12 @@ This project is a modern implementation of the classic Tetris game using React a
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/react-tetris-game.git
+   git clone git@github.com:rtmax0/tetris-game.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd react-tetris-game
+   cd tetris-game
    ```
 
 3. Install dependencies:
