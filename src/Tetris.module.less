@@ -1,0 +1,64 @@
+.tetrisContainer {
+  @cell-size: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+
+  .gameBoard {
+    border: 4px solid #333;
+    background: white;
+
+    .row {
+      display: flex;
+
+      .cell {
+        width: @cell-size;
+        height: @cell-size;
+        border: 1px solid #ddd;
+
+        &.filled {
+          background-color: #3b82f6;
+        }
+      }
+    }
+  }
+
+  .scoreBoard {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  .gameOver {
+    color: #ef4444;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 16px;
+  }
+
+  .startButton {
+    margin-top: 16px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #2563eb;
+    }
+  }
+
+  .debugInfo {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #6b7280;
+  }
+}

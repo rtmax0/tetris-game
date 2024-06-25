@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# React Tetris Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a modern implementation of the classic Tetris game using React and Tailwind CSS. It offers a responsive and interactive gaming experience right in your web browser.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Classic Tetris gameplay
+- Responsive design using Tailwind CSS
+- Real-time score tracking
+- Game over detection
+- Piece rotation and movement
+- Line clearing with score update
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (version 12 or higher)
+- npm (usually comes with Node.js)
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/react-tetris-game.git
+   ```
 
-### `npm run build`
+2. Navigate to the project directory:
+   ```
+   cd react-tetris-game
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the development server:
+   ```
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open your browser and visit `http://localhost:3000` to play the game.
 
-### `npm run eject`
+## How to Play
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Use the arrow keys to control the falling pieces:
+  - Left Arrow: Move piece left
+  - Right Arrow: Move piece right
+  - Down Arrow: Move piece down faster
+  - Up Arrow: Rotate piece
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- The game ends when the pieces stack up to the top of the board.
+- Clear lines to score points. The more lines you clear at once, the higher your score!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is open source and available under the [MIT License](LICENSE).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
 
-### Code Splitting
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Styling was done with [Tailwind CSS](https://tailwindcss.com/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy playing Tetris!
